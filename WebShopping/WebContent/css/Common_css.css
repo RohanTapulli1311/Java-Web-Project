@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+
+.card{
+	width : 100%;
+	border-radius : 10px;
+}
+
+.h2{
+	font-size : 100px;
+	font-color : black;
+	
+}
+.h3{
+	font-size : 70px;
+	font-color : black;
+}
+
+.custom-bg{
+	background : #C6DBDA!important;
+}
+
+body{
+	background-color : #DEF0F0;
+	margin : 0;
+	padding : 0;
+	-webkit-background-size : cover;
+	-background-size : cover;
+	font-family : poppins ;
+}
+h1{
+	
+	font-weight : bold;
+	font-size : 30px;
+	text-align : center;
+	margin : 0;
+	padding : 0;
+	
+	}
+
+
+
+.bottom-text input{
+	width : 10%
+}
+
+.bottom-text {
+	float : left;
+	font-size : 15px;
+	
+}
+
+#prod1{
+background-color :  #C6DBDA;
+	width : 750px;
+	height : 650px;
+	color : #000;
+	top : 50%;
+	left : 50%;
+	padding : 60px 30px;
+	position : absolute;
+	transform : translate(-50%,-50%);
+	box-sizing : border-box;
+	
+	
+	}
+	
+	#prod2{
+	background-color : #DEF0F0 ;
+	}
+	
+#prod1 input[type=submit],  input[type=reset]{
+	border : none;
+	
+	float : left;
+	outline : 2px;
+	height : 40px;
+	padding : 10px;
+	font-size : 14px;
+	font-weight : bold;
+
+}
+#prod1 input[type=radio]{
+	paddding : 5px;
+}
+#prod1 input[type=text] {
+	
+	padding : 5px;
+	border : none;
+	border-bottom : 1px solid black;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+#prod1 input[type=email] {
+	
+	padding : 5px;
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+
+
+#prod1 input[type=password] {
+	
+	padding : 5px;
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+	
+
+
+
+
+.wrapper{
+	background-color : #DEF0F0;
+	width : 400px;
+	height : 420px;
+	color : #000;
+	top : 50%;
+	left : 50%;
+	padding : 60px 30px;
+	position : absolute;
+	transform : translate(-50%,-50%);
+	box-sizing : border-box;
+	box-shadow : 8px 8px 50px #000;
+	
+}
+
+.wrapper input{
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+
+.wrapper input[type=text], .wrapper input[type=file]{
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+
+
+
+.wrapper input[type=submit]{
+	border : none;
+	background : #f6648b;
+	outline : none;
+	height : 40px;
+	font-size : 14px;
+	font-weight : bold;
+	color : #fff;
+}
+
+.wrapper input[type=submit] :hover{
+	cursor : pointer;
+}

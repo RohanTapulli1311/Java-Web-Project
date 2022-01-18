@@ -1,0 +1,174 @@
+body{
+	background-color : #FFE6EE;
+	margin : 0;
+	padding : 0;
+	-webkit-background-size : cover;
+	-background-size : cover;
+	font-family : poppins ;
+}
+h1{
+	
+	font-weight : bold;
+	font-size : 22px;
+	margin : 0;
+	padding : 0;
+	text-align : center;
+	margin-bottom: 8%;
+	font-family : Courgette;
+	
+	
+}
+#log1{
+	background-color : #FFE6EE!important;
+	margin : 0;
+	padding : 0;
+	-webkit-background-size : cover;
+	-background-size : cover;
+	font-family : poppins ;
+}
+#reg{
+	background-color : #FFE6EE!important;
+}
+
+#reg1{
+	background-color : #DEF0F0;
+	width : 500px;
+	height : 570px;
+	color : #000;
+	top : 50%;
+	left : 50%;
+	padding : 60px 30px;
+	position : absolute;
+	transform : translate(-50%,-50%);
+	box-sizing : border-box;
+	box-shadow : 8px 8px 50px #000;
+	
+}
+
+#reg1 input[type=submit],  input[type=reset]{
+	border : none;
+	background : #f6648b;
+	float : left;
+	outline : none;
+	height : 40px;
+	padding : 10px;
+	font-size : 14px;
+	font-weight : bold;
+	color : #fff;
+}
+#reg1 input[type=radio]{
+	paddding : 5px;
+}
+
+#reg1 input[type=text] {
+	
+	padding : 5px;
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+#reg1 input[type=email] {
+	
+	padding : 5px;
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+
+
+#reg1 input[type=password] {
+	
+	padding : 5px;
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+	
+
+
+
+
+.wrapper{
+	background-color : #DEF0F0;
+	width : 400px;
+	height : 420px;
+	color : #000;
+	top : 50%;
+	left : 50%;
+	padding : 60px 30px;
+	position : absolute;
+	transform : translate(-50%,-50%);
+	box-sizing : border-box;
+	box-shadow : 8px 8px 50px #000;
+	
+}
+
+.wrapper input{
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+
+.wrapper input[type=text], .wrapper input[type=password]{
+	border : none;
+	border-bottom : 1px solid #ddd;
+	background : transparent;
+	outline : none;
+	height : 30px;
+	font-size : 15px;
+	opacity : 1;
+	color : black;
+}
+
+
+
+.wrapper input[type=submit]{
+	border : none;
+	background : #f6648b;
+	outline : none;
+	height : 40px;
+	font-size : 14px;
+	font-weight : bold;
+	color : #fff;
+}
+
+.wrapper input[type=submit] :hover{
+	cursor : pointer;
+}
+
+.wrapper a{
+	font-size : 20px;
+	text-decoration : none;
+	
+	opacity : 0.8;
+}
+.wrapper a:hover{
+
+	
+	opacity : 1;
+}
+.bottom-text input{
+	width : 10%
+}
+
+.bottom-text {
+	float : left;
+	font-size : 15px;
+	
+}
+
